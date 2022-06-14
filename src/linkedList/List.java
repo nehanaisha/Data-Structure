@@ -13,6 +13,7 @@ public class List{
 		obj.add();
 		obj.append1();
 		obj.insert();
+		obj.delete();
 	}
 		void create() {
 			LinkedList<Integer> number = new LinkedList<>();
@@ -62,22 +63,22 @@ public class List{
 			System.out.println("the final list is : " + num2);
 			
 		}
-        void delete() {
-        	LinkedList<Integer> num3 = new LinkedList<>();
-			num3.add(56);
-			num3.add(30);
-			num3.add(70);
-			System.out.println("the list is : " + num3);
-			System.out.println("number removed : " + num3.pop());
-			System.out.println("the pop list is : " + num3);
-			System.out.println();
-			num3.add(56);
-			num3.add(30);
-			num3.add(70);
-			System.out.println("the list is : " + num3);
-			System.out.println("number removed : " + num3.removeLast());
-			System.out.println("the final list is : " + num3);
-			
+		 void delete() {
+	        	LinkedList<Integer> num3 = new LinkedList<>();
+				num3.add(56);
+				num3.add(30);
+				num3.add(70);
+				System.out.println("the list is : " + num3);
+				System.out.println("number removed : " + num3.pop());
+				System.out.println("the pop list is : " + num3);
+				System.out.println();
+				num3.add(56);
+				num3.add(30);
+				num3.add(70);
+				System.out.println("the list is : " + num3);
+				System.out.println("number removed : " + num3.removeLast());
+				System.out.println("the final list is : " + num3);
+				
 			
 			
         }
